@@ -144,7 +144,7 @@ namespace UnityEngine.Experimental.Rendering.Universal
                 if (!isRunning)
                     return FilterMode.Bilinear;
                 else
-                    return m_Internal.useStretchFill ? FilterMode.Bilinear : FilterMode.Point;
+                    return m_Internal.useStretchFill ? FilterMode.Point : FilterMode.Point;
             }
         }
 
